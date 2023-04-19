@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                 if (userEncontrado == null && passEncontrada == null) {
                     userData.add(User(inputUser, inputPass))
                     label.text = "ususario creado"
-                } 
+                }
                 else if (userEncontrado != null || passEncontrada != null) {
                     label.text = "usuario o contraseña ya existente"
                 }
